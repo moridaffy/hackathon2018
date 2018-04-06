@@ -1,0 +1,25 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - Cosmos (15.0.0)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+
+DEPENDENCIES:
+  - Cosmos
+  - NVActivityIndicatorView
+  - Parse
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Cosmos: a6dbd3d0baa0cc8f51f8598f7508d5a09d0a9ade
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+
+PODFILE CHECKSUM: f4fc657061ebbcaa0692f9dcb5fca93047d23806
+
+COCOAPODS: 1.4.0
