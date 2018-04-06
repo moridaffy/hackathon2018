@@ -17,7 +17,7 @@
         <meta-data
             android:name="com.parse.APPLICATION_ID"
             android:value="n8Iq13aS5hWfBblTzVNN" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
