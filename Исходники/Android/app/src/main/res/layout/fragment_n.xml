@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shekhovtsov.nikita.damnhackteam.DFragment"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/iam"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_gravity="center"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textView_age_N"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Возраст: 19"/>
+
+            <TextView
+                android:id="@+id/textView_dep_N"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Факультет: ИУ"/>
+
+            <TextView
+                android:id="@+id/textView_group_N"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Группа: ИУ5-41"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView_about_N"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:text="Администратор группы НАБЕГ в стиме. Администратор группы Вконтакте. Амбициозный: во мне так много амбиций! "/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RatingBar
+            android:id="@+id/ratingBar_N"
+            style="@style/Widget.AppCompat.RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="1.5"
+            android:stepSize="0.5" />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
