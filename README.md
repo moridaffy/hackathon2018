@@ -27,15 +27,19 @@
 ![Информация о Максиме](Скриншоты/android_m.png "") ![Информация о Никите](Скриншоты/android_n.png "")
 
 ### Скриншоты на iOS
-![Информация о Диме](Скриншоты/ios_d.png "") ![Информация о Саше](Скриншоты/ios_a.png "")
-![Информация о Максиме](Скриншоты/ios_m.png "") ![Информация о Никите](Скриншоты/ios_n.png "")
+<br>
+<img height="700" src="https://github.com/moridaffy/hackathon2018/blob/master/Скриншоты/ios_d.png?" />
+<img height="700" src="https://github.com/moridaffy/hackathon2018/blob/master/Скриншоты/ios_a.png?" />
+<br>
+<img height="700" src="https://github.com/moridaffy/hackathon2018/blob/master/Скриншоты/ios_m.png?" />
+<img height="700" src="https://github.com/moridaffy/hackathon2018/blob/master/Скриншоты/ios_n.png?" />
 
 Между участниками можно перемещаться, используя нажатия на элементы `D`, `A`, `M` и `N`
 
 Можно выставлять участникам команды рейтинг, при его изменении данные загружаются в облако и при последующих запусках будет подгружен автоматически
 
 ## Использованные продукты и технологии
-- [Parse](http://parseplatform.org/) - с помощью данной Open-Source платформы была реализована работа с базой данных: загрузка рейтинга участников с сервера и передача данных в облако
+- [Parse](http://parseplatform.org/) - с помощью данной Open-Source платформы была реализована работа с базой данных: загрузка рейтинга участников с сервера и передача данных в облако как на iOS, так и на Android
 - [Cosmos](https://github.com/evgenyneu/Cosmos) - библиотека, добавляющая функционал рейтинговой системы в iOS
 - [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView) - библиотека, добавляющая анимацию загрузки/работы с сервером в iOS
 
