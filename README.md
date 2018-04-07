@@ -27,10 +27,8 @@
 ![Информация о Максиме](Скриншоты/android_m.png "") ![Информация о Никите](Скриншоты/android_n.png "")
 
 ### Скриншоты на iOS
-<br>
-<img height="500" src="https://github.com/moridaffy/hackathon2018/blob/master/Скриншоты/ios_d.png?" /> <img height="500" src="https://github.com/moridaffy/hackathon2018/blob/master/Скриншоты/ios_a.png?" />
-<br>
-<img height="500" src="https://github.com/moridaffy/hackathon2018/blob/master/Скриншоты/ios_m.png?" /> <img height="500" src="https://github.com/moridaffy/hackathon2018/blob/master/Скриншоты/ios_n.png?" />
+![Информация о Диме](Скриншоты/ios_d.png "") ![Информация о Саше](Скриншоты/ios_a.png "")
+![Информация о Максиме](Скриншоты/ios_m.png "") ![Информация о Никите](Скриншоты/ios_n.png "")
 
 Между участниками можно перемещаться, используя нажатия на элементы `D`, `A`, `M` и `N`
 
