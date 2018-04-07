@@ -73,14 +73,14 @@
 
         <TextView
             android:id="@+id/textView_about_M"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:textColor="#000000"
-            android:textSize="17dp"
-            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Самый низкий: 176. Пишу на swift'е уже 2 года. Говорят что перфекционист, хитрый и упертый"/>
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text="Самый низкий: 176. Пишу на swift'е уже 2 года. Говорят, что перфекционист, хитрый и упертый"
+            android:textColor="#000000"
+            android:textSize="17dp" />
 
     </LinearLayout>
 
